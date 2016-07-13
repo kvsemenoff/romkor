@@ -4,7 +4,7 @@
 	border: 3px solid #e11f33;
 	border-radius: 26px;
 	width: 100%;
-	margin: 100px 0px;
+	margin: 33px 0px;
     position: relative;
     padding: 20px;
     .anz-title{
@@ -12,6 +12,7 @@
         font-family: "OpenSans-Bold";
         text-transform: uppercase;
         display: block;
+        margin-bottom: 17px;
     }
     .anz-text{
         font-family: "OpenSans-Regular";
@@ -20,15 +21,20 @@
             color: #9e1725;
         }
         display: block;
+        line-height: 25px;
     }
     .anz-subtext{
         font-family: "OpenSans-Italic";
         color: #9e1725;
         font-size: 12px;
         display: block;
+        line-height: 19px;
+    }
+    .anz-subtext_margin{
+        margin-top: 10px;
     }
 }
-.anz-red-boarder:not(:first-child):after{
+.anz-red-boarder2:after{
     content: "";
     position: absolute;
     top: -38px;
@@ -36,9 +42,89 @@
     background: url(../img/ribbon.png) no-repeat top left;
     width: 110px;
     height: 117px;
-
+}
+.anz-table{
+    //display: table;
+    width: 100%;
+    height: 143px;
+    position: relative;
+    img{
+        position: absolute;
+        bottom: 0px;
+        left: 0px;
+    }
 }
 
+.anz-item, .anz-item2{
+    margin-top: 117px;
+    width: 100%;
+    //height: 60px;
+    background: #ffc72c;
+    position: relative;
+    text-align: center;
+    img{
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translate(-50%, calc(-100% - 8px));
+    }
+    .anz-main{
+        font-family: "OpenSans-Regular";
+        font-size: 20px;
+        line-height: 47px;
+        text-transform: uppercase;
+    }
+    .anz-second{
+        font-family: "OpenSans-Bold";
+        font-size: 14px;
+        line-height: 20px;
+        padding: 13px 0px;
+        display: block;
+        //text-transform: uppercase;
+    }
+}
+.anz-item{
+    //height: 60px;
+}
+.anz-item2{
+    height: 65px;
+}
+.anz-item-right{
+    border-bottom-right-radius: 26px;
+}
+.anz-item-left{
+    border-bottom-left-radius: 26px;
+    img{
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translate(-50%, calc(-100% - 20px));
+    }
+}
+.anz-red-boarder2{
+    border: 3px solid #e11f33;
+    border-radius: 26px;
+    width: 100%;
+    //height: 163px;
+    
+    position: relative;
+    .row{
+        margin: 0px !important;
+    }
+    div[class^="col"]{
+        padding: 0px !important;
+    }
+    //padding: 20px;
+}
+.anz-red-boarder2_margin1{
+    margin-top: 100px;
+}
+.anz-red-boarder2_margin2{
+    margin-top: 119px;
+}
+.anz-item2{
+    height: 65px;
+}
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -48,7 +134,49 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+    .anz-item, .anz-item2{
+        margin-top: 170px;
+        
+        img{
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            transform: translate(-50%, calc(-100% - 8px));
+        }
 
+    }
+    .anz-item-right{
+        border-bottom-right-radius: 26px;
+        border-bottom-left-radius: 26px;
+    }
+    .anz-item-left{
+        border-bottom-left-radius: 0px;
+        img{
+            position: absolute;
+            top: 0px;
+            left: 50%;
+            transform: translate(-50%, calc(-100% - 20px));
+        }
+    }
+    .anz-item2{
+        height: inherit;
+        margin-top: 210px;
+    }
+
+
+
+    .anz-table{
+        //display: table;
+        width: 100%;
+        height: 143px;
+        position: relative;
+        img{
+            position: absolute;
+            top: 10px;
+            left: 50%;
+            transform: translate(-50%,0);
+        }
+    }
 }
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {

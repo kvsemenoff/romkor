@@ -264,7 +264,7 @@ html, body {
     height: 1px;
     background: #ad172b;
     position: absolute;
-    margin: 0 auto;
+    left: 0px;
     margin-top: 335px; }
   .header-bottom h1 {
     display: inline-block;
