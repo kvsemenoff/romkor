@@ -118,6 +118,7 @@ background: red;
         font-size: 14px;
         line-height: 22px;
         margin-bottom: 13px;
+        padding-left: 11px;
     }
     input[type="month"]{
         display: block;
@@ -131,6 +132,7 @@ background: red;
         font-size: 14px;
         line-height: 22px;
         margin-bottom: 13px;
+        padding-left: 11px;
     }
     input[type="mail"]{
         display: block;
@@ -144,6 +146,7 @@ background: red;
         font-size: 14px;
         line-height: 22px;
         margin-bottom: 13px;
+        padding-left: 11px;
     }
     input.ah-adres{
         display: block;
@@ -156,7 +159,8 @@ background: red;
         font-family: "OpenSans-Regular";
         font-size: 14px;
         line-height: 22px;
-        margin-bottom: 13px; 
+        margin-bottom: 13px;
+        padding-left: 11px; 
     }
     select{
         display: block;
@@ -170,6 +174,7 @@ background: red;
         font-size: 14px;
         line-height: 22px;
         margin-bottom: 13px;
+        padding-left: 11px;
     }
     label{
         color: #000;
@@ -204,8 +209,17 @@ background: red;
     line-height: 22px;
     margin-bottom: 13px;
 }
+.ah-form-sub1{
+    margin-bottom: 20px !important;
+}
+.ah-form-sub2{
+    margin-bottom: 20px !important;
+}
 .ah-title-block{
     padding: 21px 50px;
+}
+.ah-winpad{
+    margin-left: 13px;
 }
 // ****************************** Окно регистрации ******************************
 

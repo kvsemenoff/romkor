@@ -107,7 +107,8 @@
     color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
     line-height: 22px;
-    margin-bottom: 13px; }
+    margin-bottom: 13px;
+    padding-left: 11px; }
   .ah-common-form input[type="month"] {
     display: block;
     width: 221px;
@@ -119,7 +120,8 @@
     color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
     line-height: 22px;
-    margin-bottom: 13px; }
+    margin-bottom: 13px;
+    padding-left: 11px; }
   .ah-common-form input[type="mail"] {
     display: block;
     width: 221px;
@@ -131,7 +133,8 @@
     color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
     line-height: 22px;
-    margin-bottom: 13px; }
+    margin-bottom: 13px;
+    padding-left: 11px; }
   .ah-common-form input.ah-adres {
     display: block;
     width: 471px !important;
@@ -143,7 +146,8 @@
     font-family: "OpenSans-Regular";
     font-size: 14px;
     line-height: 22px;
-    margin-bottom: 13px; }
+    margin-bottom: 13px;
+    padding-left: 11px; }
   .ah-common-form select {
     display: block;
     width: 221px;
@@ -155,7 +159,8 @@
     font-family: "OpenSans-Regular";
     font-size: 14px;
     line-height: 22px;
-    margin-bottom: 13px; }
+    margin-bottom: 13px;
+    padding-left: 11px; }
   .ah-common-form label {
     color: #000;
     font-family: "OpenSans-Regular";
@@ -188,8 +193,17 @@
   line-height: 22px;
   margin-bottom: 13px; }
 
+.ah-form-sub1 {
+  margin-bottom: 20px !important; }
+
+.ah-form-sub2 {
+  margin-bottom: 20px !important; }
+
 .ah-title-block {
   padding: 21px 50px; }
+
+.ah-winpad {
+  margin-left: 13px; }
 
 /***************/
 
