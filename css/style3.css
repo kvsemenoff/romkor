@@ -7,17 +7,17 @@
   padding: 20px; }
   .anz-red-boarder .anz-title {
     font-size: 20px;
-    font-family: 'Open Sans Bold', arial;
+    font-family: "OpenSans-Bold";
     text-transform: uppercase;
     display: block; }
   .anz-red-boarder .anz-text {
-    font-family: 'Open Sans', arial;
+    font-family: "OpenSans-Regular";
     font-size: 16px;
     display: block; }
     .anz-red-boarder .anz-text strong {
       color: #9e1725; }
   .anz-red-boarder .anz-subtext {
-    font-family: 'Open Sans Italic', arial;
+    font-family: "OpenSans-Italic";
     color: #9e1725;
     font-size: 12px;
     display: block; }
