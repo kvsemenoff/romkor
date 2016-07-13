@@ -1,3 +1,84 @@
+.rules-item {
+  text-align: center; }
+
+.rules-item-img {
+  position: relative; }
+
+.rules-item-imgarrow1 {
+  position: absolute;
+  top: 0;
+  right: -27px; }
+
+.rules-item-imgarrow2 {
+  position: absolute;
+  top: 0;
+  right: -15px; }
+
+.ah-rules-wrapper {
+  padding: 0 26px;
+  padding-top: 25px; }
+
+.ah-rules-wrapper1 {
+  height: 55px; }
+
+.rules-item-text {
+  display: inline-block;
+  font-family: "OpenSans-Regular";
+  color: #000;
+  font-size: 16px;
+  line-height: 22px; }
+
+.ah-strong {
+  font-family: "OpenSans-Bold"; }
+
+.rules-item-span {
+  display: block;
+  font-size: 12px;
+  line-height: 18px;
+  font-family: "OpenSans-Italic";
+  color: #970615;
+  margin-top: 11px;
+  margin-bottom: 56px; }
+
+.rules-item-link {
+  display: block;
+  width: 169px;
+  height: 36px;
+  border: 2px solid #e11f33;
+  border-radius: 4px;
+  font-family: "OpenSans-Bold";
+  color: #e22033;
+  font-size: 11px;
+  line-height: 32px;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 52px; }
+
+.rules-item-img1 {
+  margin-top: 30px; }
+
+.rules-item-img2 {
+  margin-top: 17px;
+  margin-bottom: 42px; }
+
+.rules-item-link1 {
+  display: block;
+  width: 372px;
+  height: 70px;
+  border: 2px solid #970615;
+  border-radius: 4px;
+  font-family: "OpenSans-Bold";
+  color: #970615;
+  font-size: 20px;
+  line-height: 67px;
+  text-transform: uppercase;
+  text-align: center;
+  background: url(../img/ah-finger.png) calc(50% - 162px) center no-repeat; }
+
+.rules-item-img3 {
+  margin-top: 15px; }
+
 /***************/
 
 /*# sourceMappingURL=style2.css.map */
