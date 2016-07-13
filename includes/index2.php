@@ -21,23 +21,23 @@
                         <input type="text" name="otchestvo" placeholder="Отчество" class="otchestvo">
                     </div>
                     <div class="col-md-6">
-                        <input type="text" name="uname" placeholder="Имя" class="ah-uname">
-                        <input type="month" name="month" placeholder="Дата рождения" class="ah-month">
+                        <input type="text" name="uname" placeholder="Имя" class="ah-uname ah-winpad">
+                        <input type="month" name="month" placeholder="Дата рождения" class="ah-month ah-winpad">
                     </div>
                     
                     <div class="clearfix"></div>
 
-                    <span class="ah-form-subtitle">Контактные данные</span>
+                    <span class="ah-form-subtitle ah-form-sub1">Контактные данные</span>
                     <div class="col-md-6">
                         <input type="text" name="tel" placeholder="+7 900 000 00 00" class="phone" class="ah-tel">
                     </div>
                     <div class="col-md-6">
-                        <input type="mail" name="mail" placeholder="E-mail" class="ah-mail">
+                        <input type="mail" name="mail" placeholder="E-mail" class="ah-mail ah-winpad">
                     </div>
 
                     <div class="clearfix"></div>
 
-                    <span class="ah-form-subtitle">Адрес</span>
+                    <span class="ah-form-subtitle ah-form-sub2">Адрес</span>
                     <div class="col-md-12">
                         <input type="text" name="adres" placeholder="Cтрана, область, город" class="ah-adres">
                     </div>
@@ -55,8 +55,8 @@
                         <input type="text" name="pochta" placeholder="Почтовый индекс" class="ah-pochta">
                     </div>
                     <div class="col-md-6">
-                        <input type="text" name="dom" placeholder="Дом" class="ah-dom">
-                        <input type="text" name="kvartira" placeholder="Квартира" class="ah-kvartira">
+                        <input type="text" name="dom" placeholder="Дом" class="ah-dom ah-winpad">
+                        <input type="text" name="kvartira" placeholder="Квартира" class="ah-kvartira ah-winpad">
                     </div>
 
                     <div class="clearfix"></div>
