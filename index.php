@@ -48,6 +48,7 @@
 			
 
 		</div>
+		<?php require_once('includes/footer2.php'); ?>
 	</section>
 	<div class="clearfix"></div>
 
