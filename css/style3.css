@@ -168,6 +168,17 @@
   .pop-info i {
     font-family: "OpenSans-Italic"; }
 
+.footer__style {
+  margin-top: 200px;
+  color: #000;
+  background: transparent !important; }
+  .footer__style img {
+    margin: 5px; }
+  .footer__style .footer-info {
+    border-left: 1px solid #000;
+    padding-left: 18px;
+    box-sizing: border-box; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */

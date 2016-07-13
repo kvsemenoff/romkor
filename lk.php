@@ -15,7 +15,7 @@
 		</div>
 	</section>
 	<?php require_once('includes/lk_page.php'); ?>
-	<?php require_once('includes/footer.php'); ?>
+	<?php require_once('includes/footer3.php'); ?>
 	
 </body>
 </html>
