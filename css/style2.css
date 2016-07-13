@@ -106,7 +106,8 @@
     font-family: "OpenSans-Regular";
     color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
-    line-height: 22px; }
+    line-height: 22px;
+    margin-bottom: 13px; }
   .ah-common-form input[type="month"] {
     display: block;
     width: 221px;
@@ -117,7 +118,8 @@
     font-family: "OpenSans-Regular";
     color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
-    line-height: 22px; }
+    line-height: 22px;
+    margin-bottom: 13px; }
   .ah-common-form input[type="mail"] {
     display: block;
     width: 221px;
@@ -128,7 +130,8 @@
     font-family: "OpenSans-Regular";
     color: rgba(0, 0, 0, 0.7);
     font-size: 14px;
-    line-height: 22px; }
+    line-height: 22px;
+    margin-bottom: 13px; }
   .ah-common-form input.ah-adres {
     display: block;
     width: 471px !important;
@@ -139,7 +142,8 @@
     color: rgba(0, 0, 0, 0.7);
     font-family: "OpenSans-Regular";
     font-size: 14px;
-    line-height: 22px; }
+    line-height: 22px;
+    margin-bottom: 13px; }
   .ah-common-form select {
     display: block;
     width: 221px;
@@ -150,7 +154,8 @@
     color: rgba(0, 0, 0, 0.7);
     font-family: "OpenSans-Regular";
     font-size: 14px;
-    line-height: 22px; }
+    line-height: 22px;
+    margin-bottom: 13px; }
   .ah-common-form label {
     color: #000;
     font-family: "OpenSans-Regular";
@@ -180,13 +185,12 @@
   color: #970615;
   font-family: "OpenSans-Regular";
   font-size: 16px;
-  line-height: 22px; }
+  line-height: 22px;
+  margin-bottom: 13px; }
 
 .ah-title-block {
-  padding: 0 30px; }
+  padding: 21px 50px; }
 
 /***************/
-.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-  outline: 1px solid red; }
 
 /*# sourceMappingURL=style2.css.map */
