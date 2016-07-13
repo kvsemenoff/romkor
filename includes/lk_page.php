@@ -31,43 +31,47 @@
 									</div>
 								</form>
 							</div>
-							<table class="hz-table">
-								<tr>
-									<th>Дата регистрации</th>
-									<th>Код</th>
-									<th>Баллы</th>
-									<th>Статус</th>
-								</tr>
-								<tr>
-									<td>15.03.16 в 17:30 </td>
-									<td>56А5KTDD890D </td>
-									<td>1</td>
-									<td>Ожидает</td>
-								</tr>
-								<tr>
-									<td>15.03.16 в 17:30 </td>
-									<td>56А5KTDD890D </td>
-									<td>2</td>
-									<td>Зарегистрирован</td>
-								</tr>
-								<tr>
-									<td>15.03.16 в 17:30 </td>
-									<td>56А5KTDD890D </td>
-									<td>3</td>
-									<td>Зарегистрирован</td>
-								</tr>
-								<tr>
-									<td>15.03.16 в 17:30 </td>
-									<td>56А5KTDD890D </td>
-									<td>3</td>
-									<td>Зарегистрирован</td>
-								</tr>
-								<tr>
-									<td>15.03.16 в 17:30 </td>
-									<td>56А5KTDD890D </td>
-									<td>3</td>
-									<td>Зарегистрирован</td>
-								</tr>
+							<table id="example" class="hz-table table table-striped table-hover dt-responsive">
+								<thead>
+									<tr>
+										<th>Дата регистрации</th>
+										<th>Код</th>
+										<th>Баллы</th>
+										<th>Статус</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>15.03.16 в 17:30 </td>
+										<td>56А5KTDD890D </td>
+										<td>1</td>
+										<td>Ожидает</td>
+									</tr>
+									<tr>
+										<td>15.03.16 в 17:30 </td>
+										<td>56А5KTDD890D </td>
+										<td>2</td>
+										<td>Зарегистрирован</td>
+									</tr>
+									<tr>
+										<td>15.03.16 в 17:30 </td>
+										<td>56А5KTDD890D </td>
+										<td>3</td>
+										<td>Зарегистрирован</td>
+									</tr>
+									<tr>
+										<td>15.03.16 в 17:30 </td>
+										<td>56А5KTDD890D </td>
+										<td>3</td>
+										<td>Зарегистрирован</td>
+									</tr>
+									<tr>
+										<td>15.03.16 в 17:30 </td>
+										<td>56А5KTDD890D </td>
+										<td>3</td>
+										<td>Зарегистрирован</td>
+									</tr>
+								</tbody>
 							</table>
 							<div class="center">
 								<a href="#" class="w-prev">Предыдущая</a>
@@ -75,31 +79,35 @@
 							</div>
 						</div>
 						<div id="tab_c2">
-							<table class="hz-table">
-								<tr>
-									<th>№</th>
-									<th>Дата регистрации</th>
-									<th>Код</th>
-									<th>Приз</th>
-								</tr>
-								<tr>
-									<td>1</td>
-									<td>15.03.16 в 17:30 </td>
-									<td>56А5KTDD890D</td>
-									<td>Услуги мобильной связи в размере 50 руб.</td>
-								</tr>
-								<tr>
-									<td>2</td>
-									<td>15.03.16 в 17:30 </td>
-									<td>56А5KTDD890D</td>
-									<td>Услуги мобильной связи в размере 50 руб.</td>
-								</tr>
-								<tr>
-									<td>3</td>
-									<td>15.03.16 в 17:30 </td>
-									<td>56А5KTDD890D</td>
-									<td>Услуги мобильной связи в размере 50 руб.</td>
-								</tr>
+							<table id="example2" class="hz-table table table-striped table-hover dt-responsive">
+								<thead>
+									<tr>
+										<th>№</th>
+										<th>Дата регистрации</th>
+										<th>Код</th>
+										<th>Приз</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr>
+										<td>1</td>
+										<td>15.03.16 в 17:30 </td>
+										<td>56А5KTDD890D</td>
+										<td>Услуги мобильной связи в размере 50 руб.</td>
+									</tr>
+									<tr>
+										<td>2</td>
+										<td>15.03.16 в 17:30 </td>
+										<td>56А5KTDD890D</td>
+										<td>Услуги мобильной связи в размере 50 руб.</td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>15.03.16 в 17:30 </td>
+										<td>56А5KTDD890D</td>
+										<td>Услуги мобильной связи в размере 50 руб.</td>
+									</tr>
+								</tbody>
 							</table>
 							<div class="center">
 								<a href="#" class="w-prev">Предыдущая</a>

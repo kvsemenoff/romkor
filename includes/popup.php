@@ -1,4 +1,4 @@
-<!-- <div class="yellow yellow_margin"> -->
+<div class="yellow yellow_margin">
     <div class="transparent-border">
         <div class="pop-info">
             <span class="anz-header">список продукции<span class="anz-krest"></span></span>
@@ -34,4 +34,4 @@
             </div>
         </div>
     </div>
-<!-- </div> -->
+</div>

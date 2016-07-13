@@ -14,13 +14,16 @@
 					<div class="tabs_cont tabs_cont__margin">
 						
 						<div id="tab_c1">
-							<table class="hz-table">
+							<table id="example" class="hz-table table table-striped table-hover dt-responsive">
+							<thead>
 								<tr>
 									<th>Дата регистрации</th>
 									<th>Код</th>
 									<th>Баллы</th>
 									<th>Статус</th>
 								</tr>
+							</thead>
+							<tbody>
 								<tr>
 									<td>15.03.16 в 17:30 </td>
 									<td>56А5KTDD890D </td>
@@ -51,6 +54,7 @@
 									<td>3</td>
 									<td>Зарегистрирован</td>
 								</tr>
+								</tbody>
 							</table>
 							<div class="center">
 								<a href="#" class="w-prev">Предыдущая</a>
@@ -71,4 +75,11 @@
 		</div>
 	</div>
 </section>
+<script>
+        $(document).ready(function() {
+            $('#example').dataTable({
+                responsive: true
+            });
+        });
+    </script>
 <div class="clearfix"></div>

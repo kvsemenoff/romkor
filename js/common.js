@@ -1,4 +1,13 @@
 $(document).ready(function(){
+
+   
+            $('#example').dataTable({
+                responsive: true
+            });
+           $('#example2').dataTable({
+                responsive: true
+            });
+
     RESPONSIVEUI.responsiveTabs();
     funcun = function(){$('.menu-list-pressed').css({'animation-duration': '1s'});}
     setTimeout(funcun,1000);
