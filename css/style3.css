@@ -1,3 +1,36 @@
+.anz-red-boarder {
+  border: 3px solid #e11f33;
+  border-radius: 26px;
+  width: 100%;
+  margin: 100px 0px;
+  position: relative;
+  padding: 20px; }
+  .anz-red-boarder .anz-title {
+    font-size: 20px;
+    font-family: 'Open Sans Bold', arial;
+    text-transform: uppercase;
+    display: block; }
+  .anz-red-boarder .anz-text {
+    font-family: 'Open Sans', arial;
+    font-size: 16px;
+    display: block; }
+    .anz-red-boarder .anz-text strong {
+      color: #9e1725; }
+  .anz-red-boarder .anz-subtext {
+    font-family: 'Open Sans Italic', arial;
+    color: #9e1725;
+    font-size: 12px;
+    display: block; }
+
+.anz-red-boarder:not(:first-child):after {
+  content: "";
+  position: absolute;
+  top: -38px;
+  left: 0px;
+  background: url(../img/ribbon.png) no-repeat top left;
+  width: 110px;
+  height: 117px; }
+
 /*==========  Desktop First Method  ==========*/
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
