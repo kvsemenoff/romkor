@@ -227,9 +227,10 @@
 }
 
 .footer__style{
-    margin-top: 200px;
+    margin-top: 250px;
     color: #000;
     background: transparent !important;
+    font-family: "OpenSans-Regular";
     img{
         margin: 5px;
 
@@ -238,6 +239,7 @@
         border-left: 1px solid #000;
         padding-left: 18px;
         box-sizing: border-box;
+        font-family: "OpenSans-Regular";
     }
 }
     
@@ -291,7 +293,7 @@ div.dataTables_paginate{
 
 
 
-        .footer__style{
+    .footer__style{
         margin-top: 200px;
         color: #000;
         background: transparent !important;

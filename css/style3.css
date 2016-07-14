@@ -187,15 +187,17 @@
     font-family: "OpenSans-Italic"; }
 
 .footer__style {
-  margin-top: 200px;
+  margin-top: 250px;
   color: #000;
-  background: transparent !important; }
+  background: transparent !important;
+  font-family: "OpenSans-Regular"; }
   .footer__style img {
     margin: 5px; }
   .footer__style .footer-info {
     border-left: 1px solid #000;
     padding-left: 18px;
-    box-sizing: border-box; }
+    box-sizing: border-box;
+    font-family: "OpenSans-Regular"; }
 
 div.dataTables_paginate {
   float: inherit !important;
