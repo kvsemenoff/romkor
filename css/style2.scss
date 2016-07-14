@@ -72,12 +72,17 @@
     border: 2px solid #970615;
     border-radius: 4px;
     font-family: "OpenSans-Bold";
-    color: #970615;
+    color: #970615 !important;
     font-size: 20px;
     line-height: 67px;
     text-transform: uppercase;
     text-align: center;
     background: url(../img/ah-finger.png) calc(50% - 162px) center no-repeat;
+    text-decoration: none !important;
+}
+.rules-item-link1:hover{
+    color: #970615 !important;
+    text-decoration: none !important;
 }
 .rules-item-img3{
     margin-top: 15px;
@@ -233,7 +238,7 @@
     display: block;
     border: 2px solid rgba(151, 6, 21, 0.5);
     border-radius: 4px;
-    color: rgba(151, 6, 21, 0.7);
+    color: rgba(151, 6, 21, 0.7) !important;
     font-family: "OpenSans-Bold";
     font-size: 11px;
     line-height: 34px;
@@ -241,6 +246,7 @@
     margin: 0 auto;
     text-align: center;
     margin-top: 42px;
+    text-decoration: none !important;
 }
 .ah-common-form-link:hover{
     color: rgba(151, 6, 21, 0.7) !important;
