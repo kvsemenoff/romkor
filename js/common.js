@@ -1,13 +1,36 @@
 $(document).ready(function(){
 
    
-            $('#example').dataTable({
-                responsive: true
-            });
-           $('#example2').dataTable({
-                responsive: true
-            });
-
+           //  $('#example').dataTable({
+           //      responsive: true
+           //  });
+           // $('#example2').dataTable({
+           //      responsive: true
+           //  });
+$('table.dataGrid').DataTable({
+        "length":false,
+        "filter":false,
+        "iDisplayLength": 10,
+        "pagingType": "simple",
+        "info": false, 
+        "dom":"<'row'<'col-sm-12'tr>>" +
+        "<'row'<'col-sm-12'p>>",
+        "language": {
+            "info": "",
+            "paginate": {
+                next: "Следующая",
+                previous: "Предыдущая",
+                class: "w-next"
+            }
+        },
+        "order": [],
+        "columnDefs": [ {
+          "targets": 'no-sort',
+          "orderable": false,
+            
+    } ],
+        
+    });
     RESPONSIVEUI.responsiveTabs();
     funcun = function(){$('.menu-list-pressed').css({'animation-duration': '1s'});}
     setTimeout(funcun,1000);
