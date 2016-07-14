@@ -122,6 +122,15 @@
   padding: 15px 0px 15px 41px;
   overflow: auto; }
 
+.window {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  min-height: 315px;
+  display: none;
+  z-index: 9998; }
+
 .pop-info {
   background: white;
   width: 100%;
@@ -136,7 +145,7 @@
     font-family: "OpenSans-Bold";
     text-transform: uppercase;
     padding: 30px 10px 18px 37px; }
-    .pop-info .anz-header .anz-krest {
+    .pop-info .anz-header .an-exit__krest {
       position: absolute;
       width: 11px;
       height: 10px;
