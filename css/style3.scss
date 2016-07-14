@@ -253,23 +253,25 @@ div.dataTables_paginate{
         display: inline-block !important;
         color: #970615 !important;
         font-size: 16px !important;
+        
+        border: 1px solid #970615 !important;
+        -moz-border-radius: 16px !important;
+        -webkit-border-radius: 16px !important;
+        margin-right: 45px !important;
+        border-radius: 16px !important;
+        padding: 4px 14px !important;
+    }
+    .pagination>.disabled>a{
+        
+        display: inline-block !important;
+        color: #970615 !important;
+        font-size: 16px !important;
         color: #cb828a !important;
         border: 1px solid #cb828a !important;
         -moz-border-radius: 16px !important;
         -webkit-border-radius: 16px !important;
         border-radius: 16px !important;
         margin-right: 45px !important;
-        padding: 4px 14px !important;
-    }
-    .pagination>.next>a{
-        display: inline-block !important;
-        color: #970615 !important;
-        font-size: 16px !important;
-        
-        border: 1px solid #970615 !important;
-        -moz-border-radius: 16px !important;
-        -webkit-border-radius: 16px !important;
-        border-radius: 16px !important;
         padding: 4px 14px !important;
     }
 /*==========  Desktop First Method  ==========*/
