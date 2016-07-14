@@ -22,7 +22,7 @@
 			</div>
 			<div class="fcol f-col-3">
 				<div class="hz-top-form__links">
-					<a href="#">Регистрация</a> <br>
+					<a href="#reg-list" name="modal">Регистрация</a> <br>
 					<a href="#">Забыли пароль</a>
 				</div>
 			</div>
