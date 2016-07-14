@@ -12,7 +12,7 @@
 						<p class="rules-item-text"><span class="ah-strong">Покупайте</span> продукцию ТМ РОМКОР* и <span class="ah-strong">регистрируйте коды с этикеток</span> на сайте romcor-promo.ru до 30 ноября.</p>
 					</div>
 					<span class="rules-item-span">*В акции участвует вся продукция, отмеченная символом “Акция! В отпуск на море!”</span>
-					<a href="#" class="rules-item-link">Список продукции</a>
+					<a href="#list" class="rules-item-link" name="modal">Список продукции</a>
 					<img src="img/rk1.png" class="rules-item-img" alt="rk1">
 				</div>
 			</div>
