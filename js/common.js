@@ -67,7 +67,7 @@ $(document).ready(function(){
         $('.window').hide();
     }); 
       
-    $('#mask, .an-exit__krest').click(function () {
+    $('#mask, .an-exit__krest, .ah-exit__krest').click(function () {
         $('#mask').hide();
         $('.window').hide();
     }); 

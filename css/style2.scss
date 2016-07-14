@@ -86,13 +86,17 @@
 // ****************************** rules.php ******************************
 
 // ****************************** Окно регистрации ******************************
-.ah-11111{
-    padding: 100px;
-background: red;
+.ah-exit__krest{
+    position: absolute;
+    width: 11px;
+    height: 10px;
+    top: 20px;
+    right: 11px;
+    background: url(../img/krest.png) no-repeat top left;
+    cursor: pointer;
 }
-
-
 .ah-border{
+    position: relative;
     border-radius: 37px;
     border: 12px solid rgba(255, 255, 255, 0.4);
     width: 569px;
