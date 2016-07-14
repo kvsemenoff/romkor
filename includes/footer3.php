@@ -3,7 +3,7 @@
         <div class="row">
             <div class="col-md-3 col-sm-12 col-xs-12">  
 				© Все права защищены. РОМКОР, 2016
-                <div>
+                <div class="sm-display-inline-block">
                     <a href="#"><img src="img/vk.png" alt=""></a>
                     <a href="#"><img src="img/facebook.png" alt=""></a>
                     <a href="#"><img src="img/ok.png" alt=""></a>

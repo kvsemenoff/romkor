@@ -229,6 +229,9 @@ div.dataTables_paginate {
 /* Large Devices, Wide Screens */
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
+  .sm-display-inline-block {
+    display: inline-block; }
+
   .footer__style {
     margin-top: 200px;
     color: #000;

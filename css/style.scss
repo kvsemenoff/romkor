@@ -404,6 +404,10 @@ to {left: -310px;}
 	font-family: 'Open Sans Bold' , arial;
 	padding: 25px 0px;
 	background-size: cover;
+	img{
+            margin: 5px;
+
+        }
 }
 .footer-info{
 	border-left: 1px solid #ba3f4c;
@@ -908,7 +912,7 @@ h5{
 	width: 100%;
 	min-height: 1000px;
 	background: url(../img/main.jpg) top center no-repeat;
-	background-size: cover;
+	//background-size: cover;
 }
 .main-cols{
 	text-align: center;
@@ -985,6 +989,14 @@ h5{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+
+	.mainpage{
+		width: 100%;
+		min-height: 1000px;
+		background: url(../img/main.jpg) top center no-repeat;
+		background-size: cover;
+	}
+
 
 	.footer-info{
 		padding-top: 10px;
