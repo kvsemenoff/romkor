@@ -31,7 +31,7 @@
 									</div>
 								</form>
 							</div>
-							<table id="example" class="hz-table table table-striped table-hover dt-responsive">
+							<table id="example" class="hz-table table table-striped data-grid">
 								<thead>
 									<tr>
 										<th>Дата регистрации</th>
