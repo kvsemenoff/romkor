@@ -62,19 +62,19 @@
                     <div class="clearfix"></div>
 
                     <div class="col-md-1">
-                        <input type="checkbox" id="check1">
+                        <input type="checkbox" id="check1" class="check1">
                     </div>
                     <div class="col-md-11">
                         <label for="check1" class="ah-check1">Ознакомлен и согласен с Правилами Акции</label>
                     </div>
                     <div class="col-md-1">  
-                        <input type="checkbox" id="check2">
+                        <input type="checkbox" id="check2" class="check2">
                     </div>
                     <div class="col-md-11">
                         <label for="check2" class="ah-check2">Согласен на предоставление и обработку персональных данных (для их использования Организатором и уполномоченными им лицами в рамках настоящей Акции</label>
                     </div>
                     <div class="col-md-1">
-                        <input type="checkbox" id="check3">
+                        <input type="checkbox" id="check3" class="check3">
                     </div>
                     <div class="col-md-11">
                         <label for="check3" class="ah-check3">Согласен  получать информационные сообщения в рамках настоящей Акции</label>
@@ -82,7 +82,7 @@
 
                     <div class="clearfix"></div>
 
-                    <a href="#">Зарегистрироваться</a>
+                    <a href="#" class="ah-common-form-link">Зарегистрироваться</a>
                 </div>
             </div>
         </form>
