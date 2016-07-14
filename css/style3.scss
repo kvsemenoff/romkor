@@ -140,9 +140,18 @@
     padding: 50px;
 }
 
+#mask { position:absolute; left:0; top:0;  z-index:9000;  background-color:#000;  display:none; }
 
 
-
+.window{ 
+    display: none;
+    position:absolute;
+    left:0;  
+    top:0;
+    //width: 356px;
+    min-height: 315px;
+    display:none;
+    z-index:9998; }
 
 .transparent-border{
     //display: none;
@@ -150,6 +159,7 @@
     border: 12px solid rgba(255,255,255,0.5);
     background: transparent;
     max-width: 594px;
+    box-shadow: 10px 17px 30px rgba(0,0,0,.5);
     //height: 100px;
 }
 .anz-scroll{
@@ -158,7 +168,9 @@
     padding: 15px 0px 15px 41px;
     overflow: auto;
 }
+
 .pop-info{
+    //display: fixed;
     background: white;
     width: 100%;
     ///width: 80px;
@@ -174,7 +186,7 @@
         font-family: "OpenSans-Bold";
         text-transform: uppercase;
         padding: 30px 10px 18px 37px;
-        .anz-krest{
+        .an-exit__krest{
             position: absolute;
             width: 11px;
             height: 10px;

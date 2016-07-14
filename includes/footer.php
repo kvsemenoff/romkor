@@ -17,9 +17,9 @@
 
 <div id="mask"></div>
 <div id="list" class="window">
-<div class="transparent-border">
+    <div class="transparent-border">
         <div class="pop-info">
-            <span class="anz-header">список продукции<span class="anz-krest"></span></span>
+            <span class="anz-header">список продукции<span class="an-exit__krest"></span></span>
             <div class="anz-scroll">
                 <span class="anz-title">Вареные колбасы</span>
                 <ul>
