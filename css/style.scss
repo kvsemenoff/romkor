@@ -985,6 +985,16 @@ h5{
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+
+	.footer-info{
+		padding-top: 10px;
+		border-left: 0px solid #ba3f4c;
+		padding-left: 0px;
+		box-sizing: border-box;
+	}
+
+
+
 	.logo-box{
 		left: 150px;
 		top: 5px;
