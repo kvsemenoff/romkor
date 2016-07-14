@@ -240,7 +240,7 @@
         box-sizing: border-box;
     }
 }
-
+    
 /*==========  Desktop First Method  ==========*/
 
 /* Large Devices, Wide Screens */
@@ -250,6 +250,25 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+
+    .footer__style{
+        margin-top: 200px;
+        color: #000;
+        background: transparent !important;
+        img{
+            margin: 5px;
+
+        }
+        .footer-info{
+            padding-top: 10px;
+            border-left: 0px solid #000;
+            padding-left: 0px;
+            box-sizing: border-box;
+        }
+    }
+
+
+
     .anz-item, .anz-item2{
         margin-top: 170px;
         
