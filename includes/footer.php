@@ -59,7 +59,7 @@
 <div id="reg-list" class="window">
     <div class="ah-border">
         <form action="" class="ah-common-form form1">
-            <span class="an-exit__krest"></span>
+            <span class="ah-exit__krest"></span>
             <div class="row no-gutter">
                 <span class="ah-form-title">Регистрация</span>
                 <div class="ah-title-block">
