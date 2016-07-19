@@ -20,7 +20,6 @@ $('table.dataGrid').DataTable({
             "paginate": {
                 next: "Следующая",
                 previous: "Предыдущая",
-                class: "w-next"
             }
         },
         "order": [],

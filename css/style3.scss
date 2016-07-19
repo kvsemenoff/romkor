@@ -1,3 +1,8 @@
+.anz-center{
+  text-align: center;
+}
+
+
 .anz-red-boarder {
   border: 3px solid #e11f33;
   border-radius: 26px;
@@ -208,7 +213,7 @@ div.dataTables_paginate {
   display: inline-block !important;
   color: #970615 !important;
   font-size: 16px !important;
-  border: 1px solid #970615 !important;
+  border: 1px solid #970615 !important;}
 /*   -moz-border-radius: 16px !important;
   -webkit-border-radius: 16px !important;
   margin-right: 45px !important;
@@ -290,5 +295,5 @@ div.dataTables_paginate {
   .pop-info .anz-header {
     padding: 30px 0px 18px 0px;
     text-align: center; }
- }
+ 
 }

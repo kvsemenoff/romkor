@@ -889,10 +889,10 @@ h5 {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   .mainpage {
-    width: 100%;
-    min-height: 1000px;
-    background: url(../img/main.jpg) top center no-repeat;
-    background-size: cover; }
+    background: #FFC525; }
+
+  .main-cols {
+    margin-top: 70px; }
 
   .footer-info {
     padding-top: 10px;
@@ -1009,7 +1009,6 @@ h5 {
 
   .lk-posik input {
     display: block;
-    max-width: 250px;
     margin: 0 auto; }
 
   .lk-posik input[type="text"] {
@@ -1018,6 +1017,15 @@ h5 {
 
   .lk-posik .w-col-2 {
     width: 100% !important; }
+
+  .lk-posik .w-col-3 label:before {
+    position: absolute;
+    content: "";
+    width: 22px;
+    height: 17px;
+    background: url(../img/finger.png) no-repeat top center;
+    top: 15px;
+    left: calc(50% - 66px); }
 
   .titled {
     text-align: center;
