@@ -97,87 +97,93 @@
   position: relative;
   border-radius: 37px;
   border: 12px solid rgba(255, 255, 255, 0.4);
-  width: 569px;
+  /*  width: 569px; */
   background: transparent;
   box-shadow: 10px 17.3px 30px rgba(0, 0, 0, 0.5); }
 
 .ah-common-form {
   width: 100%;
-  height: 840px;
+  /* height: 840px; */
   background-color: #fff;
   border-radius: 25px;
   overflow: hidden; }
-  .ah-common-form input[type=text] {
-    display: block;
-    width: 221px;
-    height: 36px;
-    border: 1px solid #979797;
-    border-radius: 4px;
-    box-shadow: inset 0.5px 0.9px 1px rgba(0, 1, 1, 0.15);
-    font-family: "OpenSans-Regular";
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 13px;
-    padding-left: 11px; }
-  .ah-common-form input[type="month"] {
-    display: block;
-    width: 221px;
-    height: 36px;
-    border: 1px solid #979797;
-    border-radius: 4px;
-    box-shadow: inset 0.5px 0.9px 1px rgba(0, 1, 1, 0.15);
-    font-family: "OpenSans-Regular";
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 13px;
-    padding-left: 11px; }
-  .ah-common-form input[type="mail"] {
-    display: block;
-    width: 221px;
-    height: 36px;
-    border: 1px solid #979797;
-    border-radius: 4px;
-    box-shadow: inset 0.5px 0.9px 1px rgba(0, 1, 1, 0.15);
-    font-family: "OpenSans-Regular";
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 13px;
-    padding-left: 11px; }
-  .ah-common-form input.ah-adres {
-    display: block;
-    width: 471px !important;
-    height: 36px;
-    border: 1px solid #979797;
-    border-radius: 4px;
-    box-shadow: inset 0.5px 0.9px 1px rgba(0, 1, 1, 0.15);
-    color: rgba(0, 0, 0, 0.7);
-    font-family: "OpenSans-Regular";
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 13px;
-    padding-left: 11px; }
-  .ah-common-form select {
-    display: block;
-    width: 221px;
-    height: 36px;
-    border: 1px solid #979797;
-    border-radius: 4px;
-    box-shadow: inset 0.5px 0.9px 1px rgba(0, 1, 1, 0.15);
-    color: rgba(0, 0, 0, 0.7);
-    font-family: "OpenSans-Regular";
-    font-size: 14px;
-    line-height: 22px;
-    margin-bottom: 13px;
-    padding-left: 11px; }
-  .ah-common-form label {
-    color: #000;
-    font-family: "OpenSans-Regular";
-    font-size: 12px;
-    line-height: 20px;
-    letter-spacing: 0.01em; }
+
+.ah-common-form input[type=text], .ah-common-form input[type=email] {
+  display: block;
+  /* width: 221px; */
+  height: 36px;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  box-shadow: inset 0.5px 0.9px 1px rgba(0, 1, 1, 0.15);
+  font-family: "OpenSans-Regular";
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 13px;
+  padding-left: 11px; }
+
+.ah-common-form input[type="month"] {
+  display: block;
+  /* width: 221px; */
+  height: 36px;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  box-shadow: inset 0.5px 0.9px 1px rgba(0, 1, 1, 0.15);
+  font-family: "OpenSans-Regular";
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 13px;
+  padding-left: 11px; }
+
+.ah-common-form input[type="mail"] {
+  display: block;
+  /* width: 221px; */
+  height: 36px;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  box-shadow: inset 0.5px 0.9px 1px rgba(0, 1, 1, 0.15);
+  font-family: "OpenSans-Regular";
+  color: rgba(0, 0, 0, 0.7);
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 13px;
+  padding-left: 11px; }
+
+.ah-common-form input.ah-adres {
+  display: block;
+  width: 471px !important;
+  height: 36px;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  box-shadow: inset 0.5px 0.9px 1px rgba(0, 1, 1, 0.15);
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "OpenSans-Regular";
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 13px;
+  padding-left: 11px; }
+
+.ah-common-form select {
+  display: block;
+  /* width: 221px; */
+  height: 36px;
+  border: 1px solid #979797;
+  border-radius: 4px;
+  box-shadow: inset 0.5px 0.9px 1px rgba(0, 1, 1, 0.15);
+  color: rgba(0, 0, 0, 0.7);
+  font-family: "OpenSans-Regular";
+  font-size: 14px;
+  line-height: 22px;
+  margin-bottom: 13px;
+  padding-left: 11px; }
+
+.ah-common-form label {
+  color: #000;
+  font-family: "OpenSans-Regular";
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.01em; }
 
 .no-gutter div[class*='col-'] {
   padding-right: 0;
