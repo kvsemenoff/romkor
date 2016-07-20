@@ -1035,7 +1035,10 @@ h5 {
     margin-bottom: 15px; }
 
   .lk-data-submit {
-    text-align: center; } }
+    text-align: center; }
+
+  .logo-box img {
+    display: block !important; } }
 /* Small Devices, Tablets */
 /* Extra Small Devices, Phones */
 /* Custom, iPhone Retina */
@@ -1064,8 +1067,8 @@ h5 {
 
   .f-col-3 .hz-top-form__links {
     padding-left: 25px; } }
-/* Large Devices, Wide Screens */
-/***************/
-/*# sourceMappingURL=style.css.map */
+@media only screen and (max-width: 1200px) {
+  .logo-box img {
+    display: none; } }
 
 /*# sourceMappingURL=style.css.map */
